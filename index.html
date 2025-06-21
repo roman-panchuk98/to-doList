@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>To-do List</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title-to-do-list">Список справ</h1>
+      <form class="task-form">
+        <label for="new-task" class="label-text">Нове завдання:</label>
+
+        <input
+          type="text"
+          id="new-task"
+          name="task"
+          placeholder="Впишіть свою справу"
+        />
+        <div class="button-box">
+          <button type="submit" class="btn">Додати</button>
+          <button type="reset" class="btn btn-reset">Delete</button>
+        </div>
+      </form>
+      <ul class="list"></ul>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
