@@ -16,7 +16,7 @@ ul,ol {
 }
 
 .container {
-    padding: 0 150px;
+    margin: 0 150px ;
 }
 
 .task-form {
@@ -71,7 +71,6 @@ ul,ol {
         border-radius: 4px;
         width: 109px;
         height: 36px;
-       
         background-color: #4d5ae5;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
             box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -81,9 +80,6 @@ ul,ol {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
-.item-list {
-    text-wrap: wrap;
-}
 
 
 
